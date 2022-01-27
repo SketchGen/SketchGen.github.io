@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>SketchGen<sup>2</sup></title>
+  </head>
+  <body>
+    <section>
+      <div class="header">
+        <h1> SketchGen<sup>2</sup></h1>
+        <h2><b>SketchGen<sup>2</sup></b>, a tool for automatically generating expressions and test suites for use with ASketch</h2>
+      </div>
+    </section>
+	
+	<section>
+      <div class="usefullinks">
+        <h3 class="subheader">SketchGen<sup>2</sup> Information</h3>
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Description</th>
+          </tr>		  
+		  <tr>
+            <td>
+			 <a href="https://github.com/AlloyFL/AlloyFLCode">Source Code</a>
+	</td>
+            <td>
+              Open source code base for SketchGen<sup>2</sup>. Includes a collection of model sketches and starting test suites which can be used to explore SketchGen<sup>2</sup> and its application to ASketch.
+            </td>
+          </tr>
+		  		   <tr>
+		   <td>
+   Requirements
+	</td>
+            <td>
+			SketchGen<sup>2</sup> has the following requirements for execution:
+              <ul>
+			  <li><b>Supported Operating Systems:</b> Linux (64 bit) and Mac OS X (64 bit). </li>
+			  <li><b>Java 8:</b> Must be installed and accessible from PATH. </li>
+            </td>
+		  </tr>
+
+        </table>
+      </div>
+    </section>
+   
+    <section>
+      <div class="usefullinks">
+        <h3 class="subheader">Related Software</h3>
+        <table>
+          <tr>
+            <th>Tool</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>
+    <a href="https://github.com/AlloyTools/org.alloytools.alloy/releases">Alloy Analyzer v.5.1.0</a>
+	</td>
+            <td>
+              <b>Alloy 5</b> is a self-contained executable, which includes the Kodkod model finder and a variety of SAT solvers, as well as the standard Alloy library and a collection of tutorial examples. The same jar file can be incorporated into other applications to use Alloy as an API and includes the source code. See the release notes for details of new features. <i>The Analyzer is a dependent jar file for SketchGen<sup>2</sup>.</i>
+            </td>
+          </tr>
+		  		  <tr>
+            <td>
+    <a href="https://github.com/kaiyuanw/ASketch">ASketch</a>
+	</td>
+            <td>
+              <b>ASketch</b> is a command line tool built on top of Alloy5.0. Given a partial Alloy model, a candidate fragment generator, and a set of AUnit tests that capture the desired model properties, ASketch is able to fill holes with the corresponding candidate fragments and makes the completed model satisfy all AUnit tests. <i>The outputs SketchGen<sup>2</sup> of are intended for use with ASketch.</i>
+            </td>
+          </tr>
+		  
+		  <tr>
+            <td>
+    <a href="https://sites.google.com/view/aunitanalyzer">AUnit Analyzer</a>
+	</td>
+            <td>
+              <b>AUnit Analyzer</b> is an extension to the Alloy Analyzer which provides support for AUnit. AUnit is a testing framework designed for the Alloy language. AUnit establishes the definition of a test case, test execution, and coverage requirements in the context of Alloy and its declarative execution environment. <i>AUnit tests are one of the outputs of SketchGen<sup>2</sup>.</i>
+            </td>
+          </tr>
+		  
+
+		  		
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
